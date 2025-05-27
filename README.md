@@ -1,11 +1,3 @@
-Great! Here's your ready-to-use `README.md` file content tailored for your project:
-👉 **`clean-architecture-dotnet8-template`**
-
----
-
-### 📄 Create a file in root named `README.md` and paste this:
-
-```markdown
 # 🧱 Clean Architecture .NET 8 Template
 
 A modular, maintainable, and production-ready boilerplate built using **Clean Architecture** principles and **.NET 8**. Perfect for scalable APIs with clear separation of concerns, modern tooling, and extensibility.
@@ -14,27 +6,25 @@ A modular, maintainable, and production-ready boilerplate built using **Clean Ar
 
 ## ✨ Features
 
-- ✅ Clean Architecture (Domain, Application, Infrastructure, API)
-- ✅ .NET 8 Minimal API
-- ✅ EF Core + SQLite (easy DB swap)
-- ✅ Swagger UI for API docs
-- ✅ Repository Pattern with DI
-- ✅ Serilog for logging
-- ✅ GitHub-ready for open source
+* ✅ Clean Architecture (Domain, Application, Infrastructure, API)
+* ✅ .NET 8 Minimal API
+* ✅ EF Core + SQLite (easy DB swap)
+* ✅ Swagger UI for API docs
+* ✅ Repository Pattern with DI
+* ✅ Serilog for logging
+* ✅ GitHub-ready for open source
 
 ---
 
 ## 📁 Project Structure
 
 ```
-
 CleanArchitecture/
 ├── CleanArchitecture.API/           → Minimal API (entry point)
 ├── CleanArchitecture.Application/   → Interfaces, DTOs, use cases
 ├── CleanArchitecture.Domain/        → Core entities & business rules
 ├── CleanArchitecture.Infrastructure/→ EF Core, Repositories, DbContext
-
-````
+```
 
 ---
 
@@ -45,7 +35,7 @@ CleanArchitecture/
 ```bash
 git clone https://github.com/shiraz050/clean-architecture-dotnet8-template.git
 cd clean-architecture-dotnet8-template
-````
+```
 
 ### 2. Apply the EF Core migration
 
@@ -87,13 +77,3 @@ Then navigate to: [http://localhost:5128/swagger](http://localhost:5128/swagger)
 ## 📄 License
 
 This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
-
-```
-
----
-
-Would you like me to generate and save this file directly in your local repo via code snippet, or will you copy/paste it into VS?  
-Also ready to proceed with:  
-✅ `LICENSE` file  
-✅ `.github/workflows/dotnet.yml` for automated build/test
-```
